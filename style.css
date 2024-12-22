@@ -82,7 +82,7 @@ nav .navigation ul li a:hover {
 
 #home {
   background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url();
+    url(Bandari.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -234,9 +234,8 @@ nav .navigation ul li a:hover {
   padding: 6vw 8vw 6vw 8vw;
   background-image: linear-gradient(
     rgba(99, 112, 168, 0.5),
-    rgba(81, 91, 233, 0.5),
-    url()
-  );
+    rgba(81, 91, 233, 0.5)),
+    url(Bandari.jpg);
   width: 100%;
   height: 100%;
   background-size: cover;
