@@ -47,15 +47,15 @@ nav .navigation {
   display: flex;
 }
 
-#menu-btn {
+/* #menu-btn i{
   width: 30px;
   height: 30px;
   display: none;
-}
+} */
 
-#menu-close {
+/* #menu-close i {
   display: none;
-}
+} */
 
 nav .navigation ul {
   display: flex;
@@ -159,6 +159,8 @@ nav .navigation ul li a:hover {
 #features .fea-box {
   background: #f9f9ff;
   text-align: start;
+  padding: 15px 10px 15px 15px;
+  border-radius: 10px;
 }
 
 #features .fea-box i {
@@ -168,7 +170,7 @@ nav .navigation ul li a:hover {
 
 #features .fea-box h3 {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(46, 44, 59);
   padding: 13px 0 7px 0;
 }
@@ -235,7 +237,7 @@ nav .navigation ul li a:hover {
   background-image: linear-gradient(
     rgba(99, 112, 168, 0.5),
     rgba(81, 91, 233, 0.5)),
-    url(Bandari.jpg);
+    url(Laptop.avif);
   width: 100%;
   height: 100%;
   background-size: cover;
