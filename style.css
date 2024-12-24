@@ -82,7 +82,7 @@ nav .navigation ul li a:hover {
 
 #home {
   background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url(Bandari.jpg);
+    url(Ajaykumawat\ photo/Building.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -235,9 +235,10 @@ nav .navigation ul li a:hover {
 #Registration {
   padding: 6vw 8vw 6vw 8vw;
   background-image: linear-gradient(
-    rgba(99, 112, 168, 0.5),
-    rgba(81, 91, 233, 0.5)),
-    url(Laptop.avif);
+      rgba(99, 112, 168, 0.5),
+      rgba(81, 91, 233, 0.5)
+    ),
+    url(Ajaykumawat\ photo/laptop.avif);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -334,7 +335,7 @@ nav .navigation ul li a:hover {
   padding: 30px 10px;
 }
 
-#experts .expert-box .profile img{
+#experts .expert-box .profile img {
   border-radius: 50%;
   margin-bottom: 20px;
   height: 180px;
