@@ -334,6 +334,12 @@ nav .navigation ul li a:hover {
   padding: 30px 10px;
 }
 
+#experts .expert-box .profile img{
+  border-radius: 50%;
+  margin-bottom: 20px;
+  height: 180px;
+  width: 180px;
+}
 .pro-links {
   margin-top: 10px;
 }
