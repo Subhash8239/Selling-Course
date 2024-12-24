@@ -15,14 +15,14 @@
       <img src="" alt="Logo" />
       <div class="navigation">
         <ul>
-          <i id="menu-close"></i>
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <li><a href="index.html">Home</a></li>
           <li><a href="About.html">About</a></li>
           <li><a class="active" href="Blog.html">Blog</a></li>
           <li><a href="Course.html">Course</a></li>
           <li><a href="Contact.html">Contact</a></li>
         </ul>
-        <img id="menu-btn" src="" alt="menu-btn" />
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </div>
     </nav>
 
@@ -170,14 +170,6 @@
       </div>
     </footer>
 
-    <script>
-      $("#menu-btn").click(function () {
-        $("nav .navigation ul").addClass("active");
-      });
-
-      $("#menu-close").click(function () {
-        $("nav .navigation ul").removeClass("active");
-      });
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
