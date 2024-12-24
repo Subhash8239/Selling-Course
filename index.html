@@ -13,16 +13,16 @@
   <body>
     <nav>
       <img src="" alt="Logo"/>
-      <div class="navigation">
+      <div class="navigation" id="navigations">
         <ul>
-          <!-- <i class="fa fa-times menu-btn" onclick="hideMenu()"></i> -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <li><a class="active" href="index.html">Home</a></li>
           <li><a href="About.html">About</a></li>
           <li><a href="Blog.html">Blog</a></li>
           <li><a href="Course.html">Course</a></li>
           <li><a href="Contact.html">Contact</a></li>
         </ul>
-        <!-- <i class="fa fa-bars menu-btn" onclick="showMenu()"></i> -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </div>
     </nav>
 
@@ -323,21 +323,13 @@
     </footer>
 
     <script>
-      // $("#menu-btn").click(function () {
-      //   $("nav .navigation ul").addClass("active");
-      // });
-
-      // $("#menu-close").click(function () {
-      //   $("nav .navigation ul").removeClass("active");
-      // });
-
-      // var navLinks = document.getElementById("navLinks");
+      var navigations = document.getElementById("navigations");
 
       function showMenu() {
-        navLinks.style.right = "0";
+        navigations.style.right = "0";
       }
       function hideMenu() {
-        navLinks.style.right = "-200px";
+        navigations.style.right = "-200px";
       }
     </script>
   </body>
