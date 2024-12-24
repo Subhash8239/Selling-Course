@@ -466,7 +466,7 @@ footer .copyright .pro-links i:hover {
   nav .navigation ul {
     position: fixed;
     top: 0;
-    right: -220px;
+    right: -250px;
     width: 220px;
     height: 100vh;
     background: rgba(17, 20, 104, 0.45);
