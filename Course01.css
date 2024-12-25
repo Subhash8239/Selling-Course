@@ -82,7 +82,7 @@ nav .navigation ul li a:hover {
 
 #about-home {
   background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url(Bandari.jpg);
+    url(Ajaykumawat\ photo/Building.jpg);
   width: 100%;
   height: 60vh;
   background-size: cover;
@@ -107,15 +107,15 @@ nav .navigation ul li a:hover {
   align-items: flex-start;
   padding: 8vw;
 }
-#course-inner p{
-  color: #64626E;
+#course-inner p {
+  color: #64626e;
 }
-#course-inner hr{
- height: 1px;
- background: rgba(236, 226, 229, 0.5);
- margin-top: 40px;
+#course-inner hr {
+  height: 1px;
+  background: rgba(236, 226, 229, 0.5);
+  margin-top: 40px;
 }
-#course-inner h3{
+#course-inner h3 {
   padding: 35px 0 25px 0;
   color: #293038;
 }
@@ -141,71 +141,71 @@ nav .navigation ul li a:hover {
   width: 70%;
 }
 
-#course-inner .overview .course-head .c-name h2{
+#course-inner .overview .course-head .c-name h2 {
   color: #293038;
 }
 
-#course-inner .overview .course-head .c-name .star{
+#course-inner .overview .course-head .c-name .star {
   margin: 6px 0;
 }
 
-#course-inner .overview .course-head .c-name .star i{
+#course-inner .overview .course-head .c-name .star i {
   color: #fdc93b;
   font-size: 0.9rem;
 }
 
-#course-inner .overview .course-head .c-name p{
+#course-inner .overview .course-head .c-name p {
   font-size: 15px;
 }
 
-#course-inner .overview .course-head span{
+#course-inner .overview .course-head span {
   padding: 16px 22px;
   border-radius: 5px;
-  color: #5838Fc;
+  color: #5838fc;
   font-size: 24px;
   font-weight: 700;
   background-color: rgba(88, 56, 252, 0.1);
 }
 
-#course-inner .learn p{
+#course-inner .learn p {
   font-size: 15px;
   padding-bottom: 15px;
 }
-#course-inner .learn p i{
-  color: #654CE4;
+#course-inner .learn p i {
+  color: #654ce4;
   font-weight: 700;
   margin-right: 20px;
 }
-#course-inner .tutor{
+#course-inner .tutor {
   display: flex;
 }
-#course-inner .tutor img{
-  width:70px;
+#course-inner .tutor img {
+  width: 70px;
   height: 70px;
   border-radius: 50%;
   margin-right: 20px;
 }
-#course-inner .tutor h5{
+#course-inner .tutor h5 {
   font-size: 15px;
 }
 
-#course-inner .enroll{
+#course-inner .enroll {
   width: 300px;
   padding: 0 30px 30px 30px;
   border-radius: 11px;
   box-shadow: 0px 20px 40px 0 rgba(11, 2, 55, 8%);
 }
 
-#course-inner .enroll h3{
-  padding-bottom:10px;
+#course-inner .enroll h3 {
+  padding-bottom: 10px;
 }
-#course-inner .enroll p{
+#course-inner .enroll p {
   font-size: 15px;
-  color: #64626E;
+  color: #64626e;
   margin: 15px 0;
 }
-#course-inner .enroll p i{
-  color: #654CE4;
+#course-inner .enroll p i {
+  color: #654ce4;
   font-weight: 500;
   margin-right: 18px;
   width: 16px;
@@ -214,14 +214,14 @@ nav .navigation ul li a:hover {
   text-align: center;
 }
 
-#course-inner .enroll .enroll-btn{
+#course-inner .enroll .enroll-btn {
   padding: 25px 0 20px 0;
   margin: auto;
   text-align: center;
 }
-#course-inner .enroll .enroll-btn a{
+#course-inner .enroll .enroll-btn a {
   text-decoration: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 13px 45px;
   border-radius: 5px;
   font-weight: 600;
@@ -257,8 +257,11 @@ footer li {
   cursor: pointer;
   transition: 0.3s ease;
 }
-
-footer li:hover {
+footer li a {
+  text-decoration: none;
+  color: #7b838a;
+}
+footer li a:hover {
   color: rgb(241, 240, 245);
 }
 
@@ -379,24 +382,24 @@ footer .copyright .pro-links i:hover {
   nav .navigation ul li a {
     color: #fff;
   }
- 
-#course-inner {
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: flex-start;
-  padding: 8vw 4vw;
-}
-#course-inner .overview {
-  width: 100%;
-}
-#course-inner .overview .course-img {
-  width: 100%;
-  height: 100%;
-}
-#course-inner .enroll{
-  margin-top: 25px;
-}
+
+  #course-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+  }
+  #course-inner .overview {
+    width: 100%;
+  }
+  #course-inner .overview .course-img {
+    width: 100%;
+    height: 100%;
+  }
+  #course-inner .enroll {
+    margin-top: 25px;
+  }
   footer .copyright .pro-links {
     margin-top: 15px;
   }
@@ -406,14 +409,14 @@ footer .copyright .pro-links i:hover {
   #course-inner .overview .course-head .c-name {
     width: 50%;
   }
-  #course-inner .overview .course-head .c-name h2{
+  #course-inner .overview .course-head .c-name h2 {
     font-size: 22px;
   }
-  #course-inner .overview .course-head span{
-   font-size: 22px;
+  #course-inner .overview .course-head span {
+    font-size: 22px;
   }
-  #course-inner .enroll{
-   width: 100%;
+  #course-inner .enroll {
+    width: 100%;
   }
 }
 
