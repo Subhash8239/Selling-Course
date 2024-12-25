@@ -38,9 +38,12 @@ nav {
   z-index: 999;
 }
 
-nav img {
-  width: 150px;
+nav h1 {
+  font-size: 30px;
   cursor: pointer;
+}
+nav a {
+  text-decoration: none;
 }
 
 nav .navigation {
@@ -112,16 +115,6 @@ nav .navigation ul li a:hover {
   background-color: #fff;
   font-weight: 600;
   border-radius: 5px;
-}
-
-#home a.blue {
-  color: #fff;
-  background: rgb(21, 21, 100);
-}
-
-#home a.blue:hover {
-  color: rgb(21, 21, 100);
-  background: #fff;
 }
 
 #home a.yellow {
@@ -381,8 +374,12 @@ footer li {
   cursor: pointer;
   transition: 0.3s ease;
 }
+footer li a {
+  text-decoration: none;
+  color: #7b838a;
+}
 
-footer li:hover {
+footer li a:hover {
   color: rgb(241, 240, 245);
 }
 
@@ -453,8 +450,8 @@ footer .copyright .pro-links i:hover {
   nav {
     padding: 15px 20px;
   }
-  nav img {
-    width: 130px;
+  nav h1 {
+    font-size: 15px;
   }
 
   nav .fa {
