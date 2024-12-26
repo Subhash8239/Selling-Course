@@ -47,16 +47,6 @@
     display: flex;
   }
   
-  #menu-btn {
-    width: 30px;
-    height: 30px;
-    display: none;
-  }
-  
-  #menu-close {
-    display: none;
-  }
-  
   nav .navigation ul {
     display: flex;
     justify-content: flex-end;
@@ -100,6 +90,80 @@
     font-size: 2.2rem;
     letter-spacing: 1px;
   }
+
+  #contact{
+    padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #contact .getin{
+    width: 350px;
+  }
+  #contact .getin h2{
+    color: #2C234D;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+  }
+
+  #contact .getin p{
+    color: #686875;
+    line-height: 24px;
+    margin-bottom: 33px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E5E4ED;
+  }
+  #contact .getin h3{
+    color: #2C234D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+  #contact .getin .getin-details div{
+    display: flex;
+  }
+  #contact .getin .getin-details div .fas{
+    font-size: 16px;
+    line-height: 22px;
+    color: #5838FC;
+    margin-right: 20px;
+  }
+  #contact .getin .getin-details div p{
+    font-size: 14px;
+    border-bottom: none;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+  .pro-links {
+    margin-top: 10px;
+  }
+  
+  .pro-links i {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .pro-links i:hover {
+    background: rgb(21, 21, 100);
+    color: #fff;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+  }
+  #contact .getin .getin-details .pro-links i{
+    margin-right: 8px;
+  } 
+  #contact .form{
+    width: 60%;
+    background: #F7F6FA;
+    padding: 40px;
+    border-radius: 10px;
+  }
+
   /* footer */
   
   footer {
