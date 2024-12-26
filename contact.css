@@ -163,7 +163,35 @@
     padding: 40px;
     border-radius: 10px;
   }
-
+  #contact .form h4{
+    font-size: 24px;
+    color: #2C234D;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+  #contact .form p{
+    color: #686875;
+    line-height: 24px;
+    padding-bottom: 25px;
+  }
+  
+  #contact .form .form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #contact .form .form-row input{
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: #fff;
+    color: #7E7C87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+  }
   /* footer */
   
   footer {
