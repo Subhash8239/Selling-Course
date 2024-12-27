@@ -12,18 +12,18 @@
   </head>
   <body>
     <nav>
-      <img src="" alt="Logo" />
-      <div class="navigation">
+      <a href="index.html"><h1>TechEduca</h1></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
-          <i id="menu-close"></i>
           <li><a href="index.html">Home</a></li>
           <li><a href="About.html">About</a></li>
-          <li><a class="active" href="Blog.html">Blog</a></li>
-          <li><a href="Contact.html">Course</a></li>
+          <li><a class="active"  href="Blog.html">Blog</a></li>
+          <li><a href="Course.html">Course</a></li>
           <li><a href="Contact.html">Contact</a></li>
         </ul>
-        <img id="menu-btn" src="" alt="menu-btn" />
       </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
     <section id="blog-container">
@@ -153,5 +153,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

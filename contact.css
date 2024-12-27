@@ -261,8 +261,12 @@ footer li {
   cursor: pointer;
   transition: 0.3s ease;
 }
+footer li a {
+  text-decoration: none;
+  color: #7b838a;
+}
 
-footer li:hover {
+footer li a:hover {
   color: rgb(241, 240, 245);
 }
 
@@ -313,20 +317,6 @@ footer .copyright {
 
 footer .copyright p {
   color: #fff;
-}
-
-footer .pro-links i {
-  padding: 10px 13px;
-  border: 1px solid rgb(21, 21, 100);
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-footer .pro-links i:hover {
-  background: rgb(21, 21, 100);
-  color: #fff;
-  border: 1px solid rgb(21, 21, 100);
-  cursor: pointer;
 }
 
 footer .copyright .pro-links {
