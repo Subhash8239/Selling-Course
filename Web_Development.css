@@ -117,6 +117,7 @@
   
   /* footer */
   
+
   footer {
     padding: 8vw;
     background-color: #101c32;
@@ -144,8 +145,11 @@
     cursor: pointer;
     transition: 0.3s ease;
   }
-  
-  footer li:hover {
+  footer li a {
+    text-decoration: none;
+    color: #7b838a;
+  }
+  footer li a:hover {
     color: rgb(241, 240, 245);
   }
   
@@ -225,6 +229,7 @@
     color: #2c2c2c;
     background-color: #fdc93b;
   }
+  
   
   @media (max-width: 769px) {
     .nav-links {
