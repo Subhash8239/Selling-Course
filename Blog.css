@@ -292,12 +292,15 @@ footer .copyright .pro-links i:hover {
     padding: 20px 0 20px 40px;
     margin-left: 0;
   }
+  
   nav .nav-links ul li a {
     color: #fff;
   }
+
   #blog-container {
     padding: 8vw 4vw;
   }
+
   footer .copyright .pro-links {
     margin-top: 15px;
   }
