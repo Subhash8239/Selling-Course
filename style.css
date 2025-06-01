@@ -77,8 +77,9 @@ nav .nav-links ul li a:hover {
 }
 
 #home {
-  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url(Ajaykumawat\ photo/Building.jpg);
+  /* background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), */
+    /* url(Ajaykumawat\ photo/Home.jpeg); */
+    background-image: url(Ajaykumawat\ photo/Home.jpeg);
   width: 100%;
   height: 100vh;
   background-size: cover;
